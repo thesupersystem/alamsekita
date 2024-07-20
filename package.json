@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "https://thesupersystem.github.io/alamse-kita",
+  
 
   "dependencies": {
     "@emotion/react": "^11.12.0",
