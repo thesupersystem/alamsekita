@@ -1,7 +1,15 @@
-
+body {
+    background: url('../assets/images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'CustomFont1', sans-serif; /* Ensure your custom font is applied */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 
 header {
-    background: #000000;
+    background: transparent;
     color: black;
     padding: 1rem;
 }
@@ -22,7 +30,7 @@ nav ul {
         }
 
 footer {
-    background: #000000;
+    background: transparent;
     color: black;
     padding: 1rem;
     text-align: center;
@@ -52,5 +60,3 @@ form button {
     border: none;
     padding: 0.5rem 1rem;
 }
-
-

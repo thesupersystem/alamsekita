@@ -3,6 +3,12 @@ import { Typography, Box, Paper } from '@mui/material';
 import exampleImage from '../assets/images/logo.webp';
 import anotherImage from '../assets/images/sg_map.gif'; // Import the additional image
 import polyMapImage from '../assets/images/posthumanism_001.webp';
+import caption1 from '../assets/images/001_top.webp';
+import polySpeciesChart from '../assets/images/polyenvichart.webp';
+import polySpeciesMap from '../assets/images/polyenvichart3.webp';
+import hypothesis from '../assets/images/hypothesis.webp';
+import polyspeciesdesign from '../assets/images/polyspecies_01.webp';
+import polyspeciesframework from '../assets/images/polyspecies_Chart.webp';
 
 const LandingPage = () => {
     return (
@@ -75,7 +81,7 @@ const LandingPage = () => {
                             height: 'auto',
                         }}
                         alt="Additional Example"
-                        src={anotherImage} // Source for the additional image
+                        src={caption1} // Source for the additional image
                     />
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                         <Typography variant="h4" sx={{ flexGrow: 1, color: "#FFFFFF", fontFamily: 'CustomFont1' }}>
@@ -100,12 +106,12 @@ const LandingPage = () => {
                     sx={{
                         p: 1,
                         mt: 1,
-                        width: '900px', // Adjust the size as needed
-                        height: '400px',
+                        maxWidth: '100%', // Adjust the size as needed
+                        maxHeight: '100%',
                         mr: 2
                     }}
                     alt="Example"
-                    src={polyMapImage}
+                    src={polySpeciesChart}
                 />
                 <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                    
@@ -123,21 +129,38 @@ const LandingPage = () => {
 
                     </Box>
 
+
+
                     <Box
                         component="img"
                         sx={{
                             mt: 2, // Add margin to the top
                             ml: 2,
                             maxWidth: '200%', // Ensure the image does not overflow
-                            height: 'auto',
+                            maxHeight: '100%',
                         }}
                         alt="Additional Example"
-                        src={anotherImage} // Source for the additional image
+                        src={polySpeciesMap} // Source for the additional image
                     />
+                   
+
+
 
 
 
                 </Box>
+
+                <Box
+                    component="img"
+                    sx={{
+                        mt: 2, // Add margin to the top
+                        ml: 2,
+                        maxWidth: '200%', // Ensure the image does not overflow
+                        height: 'auto',
+                    }}
+                    alt="Additional Example"
+                    src={hypothesis} // Source for the additional image
+                />
 
 
                 [poly-species design]
@@ -147,13 +170,14 @@ const LandingPage = () => {
                     sx={{
                         p: 1,
                         mt: 1,
-                        width: '900px', // Adjust the size as needed
-                        height: '400px',
+                        maxWidth: '100%', // Adjust the size as needed
+                        maxHeight: '100%',
                         mr: 2
                     }}
                     alt="Example"
-                    src={polyMapImage}
+                    src={polyspeciesdesign}
                 />
+
                 <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
 
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -161,17 +185,23 @@ const LandingPage = () => {
                             Poly-Species Design
                         </Typography>
                         <Typography variant="body1" sx={{ flexGrow: 1, color: "#FFFFFF", fontFamily: 'CustomFont2' }}>
-                            The term "posthumanism" is applied to a range of contemporary theoretical positions put forward by researchers with disciplinary backgrounds in philosophy, science and technology studies, literary studies, critical theory, theoretical socioloy and communication studies. For these groups, posthumanism designates a series of breaks with foundational assumptions of modern Western culture: in particular, a new way of understanding the human subjecti in relationship to the natural world in general.
+                            
                             <br></br>
                             Poly-species design is a methodology that approaches design through Posthumanist principles developed by Donna Harraway and Rosi Braidotti. This design methodological approach intends to transform human-centered environments into poly-species environments thus, encouraging the co-existence between humans and their non-human counterparts.
                             <br></br>
                             This design methodology ensures the inclusivity of non-human stakeholders during all stages of development.
+                            <br></br>
+                            <br></br>
+                
+
+
                         </Typography>
 
-
+                      
 
                     </Box>
 
+                   
                     <Box
                         component="img"
                         sx={{
@@ -181,13 +211,40 @@ const LandingPage = () => {
                             height: 'auto',
                         }}
                         alt="Additional Example"
-                        src={anotherImage} // Source for the additional image
+                        src={polyspeciesframework} // Source for the additional image
                     />
 
 
 
                 </Box>
+                <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
 
+                    <Typography variant="body1" sx={{ p:2, flexGrow: 1, color: "#FFFFFF", fontFamily: 'CustomFont2' }}>
+
+                        [PHASE 1]
+                        <br></br>
+                        The user identifies the issue of an existing human-centred environment. Identifying key non-human stakeholders is done during this stage of the design process. A design statement is developed around the poly-species design framework to address the issue. Sources from various forms media (news articles,journals etc) will be used to support the design statement.
+
+                    </Typography>
+
+                    <Typography variant="body1" sx={{ p: 2, flexGrow: 1, color: "#FFFFFF", fontFamily: 'CustomFont2' }}>
+
+
+                        [PHASE 2]
+                        <br></br>
+                        With a design statement prepared and sources to support it, users can approach collaborators (scientists, animal researchers) to understand more about targeted species. The access to characteristics of targeted species allows the user to develop solutions to meet the needs of non-human stakeholders. Users can also further collaborate with other field specialists (technologists, AI researchers etc) to develop solutions and prototypes. During this entire process, the user must ensure key points of the design framework are met. Occasionally, governments can play a significant role in a project, and thus, it is crucial to involve them during most stages of a project.
+
+
+                    </Typography>
+
+                    <Typography variant="body1" sx={{ p: 2, flexGrow: 1, color: "#FFFFFF", fontFamily: 'CustomFont2' }}>
+
+                        [PHASE 3]
+                        <br></br>
+                        A developed solution or prototype cannot be deployed for real-world use unless tested in the field. During this phase, human stakeholders (both private and government organisations), will be approached to deploy the solution or prototype for field testing. Data from the test will deduce the feasibility of the design project.
+                    </Typography>
+
+                </Box>
 
             </Paper>
         </Box>
