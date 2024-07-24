@@ -1,6 +1,7 @@
 {
   "name": "asv2",
   "version": "0.1.0",
+  "homepage": "https://thesupersystem.github.io/alamsekita",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.12.0",
