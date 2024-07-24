@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/alamsekita/static/css/main.b0a04be5.css",
+    "main.js": "/alamsekita/static/js/main.346c12ae.js",
+    "static/js/453.a86178f6.chunk.js": "/alamsekita/static/js/453.a86178f6.chunk.js",
+    "static/media/sg_map.gif": "/alamsekita/static/media/sg_map.d33dc6274b797e1a77d1.gif",
+    "static/media/GT-Sectra-Fine-Regular.ttf": "/alamsekita/static/media/GT-Sectra-Fine-Regular.f9dd1f63b7cd524a9c71.ttf",
+    "static/media/GT-Sectra-Fine-Bold.ttf": "/alamsekita/static/media/GT-Sectra-Fine-Bold.9a8b2669d0be1b73964d.ttf",
+    "static/media/hypothesis.webp": "/alamsekita/static/media/hypothesis.d67d0bbce583a92ec0a7.webp",
+    "static/media/polyenvichart.webp": "/alamsekita/static/media/polyenvichart.42487e59181e30e4a18f.webp",
+    "static/media/001_top.webp": "/alamsekita/static/media/001_top.4e5a6509881c20c9f66c.webp",
+    "static/media/posthumanism_001.webp": "/alamsekita/static/media/posthumanism_001.b9707346cd2418fdab69.webp",
+    "static/media/polyspecies_01.webp": "/alamsekita/static/media/polyspecies_01.4e71f08b34def8d153f9.webp",
+    "static/media/polyenvichart3.webp": "/alamsekita/static/media/polyenvichart3.8f5fc82b6325654ab0b3.webp",
+    "static/media/polyspecies_Chart.webp": "/alamsekita/static/media/polyspecies_Chart.bed4fbfaed54bbee3ba1.webp",
+    "static/media/logo.webp": "/alamsekita/static/media/logo.7890c08a0ef235aec9dd.webp",
+    "index.html": "/alamsekita/index.html",
+    "main.b0a04be5.css.map": "/alamsekita/static/css/main.b0a04be5.css.map",
+    "main.346c12ae.js.map": "/alamsekita/static/js/main.346c12ae.js.map",
+    "453.a86178f6.chunk.js.map": "/alamsekita/static/js/453.a86178f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0a04be5.css",
+    "static/js/main.346c12ae.js"
+  ]
+}
