@@ -43,6 +43,7 @@ function App() {
                 </Container>
                 <Footer />
             </Router>
+            LandingPage();
         </ThemeProvider>
     );
 }
